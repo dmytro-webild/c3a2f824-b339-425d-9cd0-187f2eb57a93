@@ -72,6 +72,7 @@ export default function RetroGlassPhotographyPage() {
                     textboxLayout="default"
                     animationType="slide-up"
                     gridVariant="uniform-all-items-equal"
+                    useInvertedBackground={false}
                     features={[
                         { title: "Portraits", description: "Timeless portraits with a vintage aesthetic.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-posing_23-2149213187.jpg" },
                         { title: "Events", description: "Documenting your celebrations with a documentary soul.", imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-young-couple_23-2148140834.jpg" },
@@ -85,17 +86,21 @@ export default function RetroGlassPhotographyPage() {
                     description="Our curated creative process ensures a cinematic result."
                     showStepNumbers={true}
                     animationType="slide-up"
+                    textboxLayout="default"
+                    useInvertedBackground={false}
                     features={[
                         { title: "Consultation", description: "Discussing your vision and the desired aesthetic.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-specialized-photographers-working-studio_23-2150247261.jpg" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/high-angle-closeup-shot-vintage-camera-locker-light_181624-46594.jpg" } },
                         { title: "The Shoot", description: "Creating comfort and magic behind the lens.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/male-product-photographer-doing-his-job-studio_23-2148970193.jpg" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/happy-portrait-couple-holding-video-camera-record-clip-video_1150-11982.jpg" } },
                     ]}
                 />
                 <FeatureCardMedia
-                    id="portfolio"
+                    animationType="slide-up"
                     tag="Gallery"
                     tagIcon={Heart}
                     title="Our Work"
                     description="A collection of curated moments with a vintage tone."
+                    textboxLayout="default"
+                    useInvertedBackground={false}
                     features={[
                         { id: "1", title: "Summer Wedding", description: "Outdoor event in rural Manitoba.", tag: "Events", imageSrc: "http://img.b2bpic.net/free-photo/newlyweds-walking-sunset-field_1153-605.jpg" },
                         { id: "2", title: "Editorial Portrait", description: "High-fashion vintage aesthetic.", tag: "Portraits", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-albinism-posing-studio_23-2150535752.jpg" },
@@ -106,21 +111,25 @@ export default function RetroGlassPhotographyPage() {
                     tag="Feedback"
                     title="Client Stories"
                     description="What our clients say about their Retro Glass experience."
+                    textboxLayout="default"
+                    useInvertedBackground={false}
                     testimonials={[
                         { id: "1", name: "Sarah & Marc", date: "Oct 2024", title: "Pure Magic", quote: "The images look like they belong in a vintage film magazine. Truly incredible work.", tag: "Events", avatarSrc: "http://img.b2bpic.net/free-photo/couple-careere_1157-15799.jpg", imageSrc: "http://img.b2bpic.net/free-photo/couple-careere_1157-15799.jpg" },
                     ]}
                 />
-                <ContactSplitForm
-                    id="contact"
-                    title="Book Your Session"
-                    description="Based in Winnipeg. Let's create something timeless together."
-                    imageSrc="http://img.b2bpic.net/free-photo/black-model-posing_23-2148171747.jpg"
-                    inputs={[
-                        { name: "name", type: "text", placeholder: "Full Name" },
-                        { name: "email", type: "email", placeholder: "Email Address" },
-                    ]}
-                    textarea={{ name: "message", placeholder: "Describe your project..." }}
-                />
+                <div id="contact" data-section="contact">
+                    <ContactSplitForm
+                        title="Book Your Session"
+                        description="Based in Winnipeg. Let's create something timeless together."
+                        imageSrc="http://img.b2bpic.net/free-photo/black-model-posing_23-2148171747.jpg"
+                        inputs={[
+                            { name: "name", type: "text", placeholder: "Full Name" },
+                            { name: "email", type: "email", placeholder: "Email Address" },
+                        ]}
+                        textarea={{ name: "message", placeholder: "Describe your project..." }}
+                        useInvertedBackground={false}
+                    />
+                </div>
                 <FooterCard
                     logoText="Retro Glass"
                     socialLinks={[
