@@ -30,10 +30,10 @@ export default function RetroGlassPhotographyPage() {
             <ReactLenis root>
                 <NavbarLayoutFloatingInline
                     navItems={[
-                        { name: "About", id: "about" },
-                        { name: "Portfolio", id: "portfolio" },
-                        { name: "Services", id: "services" },
-                        { name: "Contact", id: "contact" },
+                        { name: "About", id: "/about" },
+                        { name: "Portfolio", id: "#portfolio" },
+                        { name: "Services", id: "#services" },
+                        { name: "Contact", id: "#contact" },
                     ]}
                     brandName="Retro Glass"
                     button={{ text: "Book a Session", href: "#contact" }}
@@ -61,7 +61,7 @@ export default function RetroGlassPhotographyPage() {
                         { type: "image", src: "http://img.b2bpic.net/free-photo/texture-dark-fabric-with-yellow-stain_1253-75.jpg", alt: "Retro grain" },
                         { type: "text", content: "cinematic perspective" },
                     ]}
-                    buttons={[{ text: "View Our Creative Philosophy", href: "#about" }]}
+                    buttons={[{ text: "View Our Creative Philosophy", href: "/about" }]}
                     useInvertedBackground={false}
                 />
                 <FeatureCardOne
