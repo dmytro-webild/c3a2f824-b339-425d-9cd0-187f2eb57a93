@@ -31,19 +31,19 @@ export default function RetroGlassPhotographyPage() {
                 <NavbarLayoutFloatingInline
                     navItems={[
                         { name: "About", id: "/about" },
-                        { name: "Portfolio", id: "#portfolio" },
-                        { name: "Services", id: "#services" },
-                        { name: "Contact", id: "#contact" },
+                        { name: "Portfolio", id: "/portfolio" },
+                        { name: "Services", id: "/services" },
+                        { name: "Contact", id: "/contact" },
                     ]}
                     brandName="Retro Glass"
-                    button={{ text: "Book a Session", href: "#contact" }}
+                    button={{ text: "Book a Session", href: "/contact" }}
                 />
                 <HeroCarouselLogo
                     logoText="Retro Glass"
                     description="Timeless Moments Through a Retro Lens. Modern photography with a vintage soul."
                     buttons={[
-                        { text: "View Portfolio", href: "#portfolio" },
-                        { text: "Book a Session", href: "#contact" },
+                        { text: "View Portfolio", href: "/portfolio" },
+                        { text: "Book a Session", href: "/contact" },
                     ]}
                     slides={[
                         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775492966140-bw9ecizm.jpg", imageAlt: "Cinematic retro portrait" },
