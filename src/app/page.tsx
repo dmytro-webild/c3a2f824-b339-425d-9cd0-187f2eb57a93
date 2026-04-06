@@ -46,9 +46,10 @@ export default function RetroGlassPhotographyPage() {
                         { text: "Book a Session", href: "#contact" },
                     ]}
                     slides={[
-                        { imageSrc: "http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=2", imageAlt: "Cinematic retro portrait" },
-                        { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-middle-aged-woman-hat-with-short-haircut-center-big-city-close-up-portrait-soft-backlight_1321-2714.jpg", imageAlt: "Vintage aesthetic event photography" },
-                        { imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-black-white-tone_53876-126899.jpg", imageAlt: "Artistic creative shoot" },
+                        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775492966140-bw9ecizm.jpg", imageAlt: "Cinematic retro portrait" },
+                        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775492966141-6aye1qnt.jpg", imageAlt: "Vintage aesthetic event photography" },
+                        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775492966141-gcar54xg.jpg", imageAlt: "Artistic creative shoot" },
+                        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775492966141-h85nxfar.jpg", imageAlt: "Artistic creative shoot" },
                     ]}
                     showDimOverlay={true}
                 />
