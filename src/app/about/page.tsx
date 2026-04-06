@@ -39,7 +39,7 @@ export default function AboutPage() {
                         tagIcon={Camera}
                         title="About Retro Glass Photography"
                         description="Welcome to Retro Glass. We are a Winnipeg-based photography studio dedicated to preserving your most precious memories through a lens that values authenticity, cinematic texture, and timeless storytelling. Our approach merges professional modern techniques with the nostalgic, tactile charm of classic film, ensuring your photographs feel as meaningful years from now as they do today."
-                        imageSrc="http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=1"
+                        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775493619800-zm13o16z.jpg"
                         imageAlt="Photographer with vintage camera"
                         useInvertedBackground={false}
                         className="py-20"
