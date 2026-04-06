@@ -103,8 +103,8 @@ export default function RetroGlassPhotographyPage() {
                     textboxLayout="default"
                     useInvertedBackground={false}
                     features={[
-                        { id: "1", title: "Summer Wedding", description: "Outdoor event in rural Manitoba.", tag: "Events", imageSrc: "http://img.b2bpic.net/free-photo/newlyweds-walking-sunset-field_1153-605.jpg" },
-                        { id: "2", title: "Editorial Portrait", description: "High-fashion vintage aesthetic.", tag: "Portraits", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-albinism-posing-studio_23-2150535752.jpg" },
+                        { id: "1", title: "Summer Wedding", description: "Outdoor event in rural Manitoba.", tag: "Events", imageSrc: "http://img.b2bpic.net/free-photo/newlyweds-walking-sunset-field_1153-605.jpg?_wi=1" },
+                        { id: "2", title: "Editorial Portrait", description: "High-fashion vintage aesthetic.", tag: "Portraits", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-albinism-posing-studio_23-2150535752.jpg?_wi=1" },
                         { id: "3", title: "Urban Nights", description: "Creative lifestyle session.", tag: "Creative", imageSrc: "http://img.b2bpic.net/free-photo/woman-grey-suit-enjoys-wind-street-new-york-city_8353-1582.jpg" },
                     ]}
                 />
