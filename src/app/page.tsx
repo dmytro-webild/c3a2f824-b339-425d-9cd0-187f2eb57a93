@@ -61,7 +61,7 @@ export default function RetroGlassPhotographyPage() {
                         { type: "image", src: "http://img.b2bpic.net/free-photo/texture-dark-fabric-with-yellow-stain_1253-75.jpg", alt: "Retro grain" },
                         { type: "text", content: "cinematic perspective" },
                     ]}
-                    buttons={[{ text: "View Our Creative Philosophy", href: "/about" }]}
+                    buttons={[{ text: "Read Our Creative Manifesto", href: "/about" }]}
                     useInvertedBackground={false}
                 />
                 <FeatureCardOne
