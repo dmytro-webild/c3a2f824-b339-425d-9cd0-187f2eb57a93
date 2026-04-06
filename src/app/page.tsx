@@ -32,7 +32,6 @@ export default function RetroGlassPhotographyPage() {
                     navItems={[
                         { name: "About", id: "/about" },
                         { name: "Portfolio", id: "/portfolio" },
-                        { name: "Services", id: "/services" },
                         { name: "Contact", id: "/contact" },
                     ]}
                     brandName="Retro Glass"
@@ -67,23 +66,6 @@ export default function RetroGlassPhotographyPage() {
                         ]}
                         buttons={[{ text: "Read Our Creative Manifesto", href: "/about" }]}
                         useInvertedBackground={false}
-                    />
-                </div>
-                <div id="services">
-                    <FeatureCardOne
-                        tag="Services"
-                        tagIcon={Camera}
-                        title="Photography Services"
-                        description="Professional, artistic coverage for your most important moments in Winnipeg and beyond."
-                        textboxLayout="default"
-                        animationType="slide-up"
-                        gridVariant="uniform-all-items-equal"
-                        useInvertedBackground={false}
-                        features={[
-                            { title: "Portraits", description: "Timeless portraits with a vintage aesthetic.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-posing_23-2149213187.jpg" },
-                            { title: "Events", description: "Documenting your celebrations with a documentary soul.", imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-young-couple_23-2148140834.jpg" },
-                            { title: "Creative", description: "Concept-driven shoots featuring authentic film looks.", imageSrc: "http://img.b2bpic.net/free-photo/lady-red-posing-studio_651396-1333.jpg" },
-                        ]}
                     />
                 </div>
                 <div id="process">
