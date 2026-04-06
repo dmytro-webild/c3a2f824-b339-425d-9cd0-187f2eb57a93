@@ -11,7 +11,7 @@ import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 import FooterCard from "@/components/sections/footer/FooterCard";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { Camera, Film, Heart, Mail, Instagram, Facebook } from "lucide-react";
+import { Camera, Film, Heart, Instagram, Facebook } from "lucide-react";
 
 export default function RetroGlassPhotographyPage() {
     return (
