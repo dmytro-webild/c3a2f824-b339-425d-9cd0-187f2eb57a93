@@ -27,7 +27,6 @@ export default function AboutPage() {
                         { name: "Home", id: "/" },
                         { name: "About", id: "/about" },
                         { name: "Portfolio", id: "/portfolio" },
-                        { name: "Services", id: "/services" },
                         { name: "Contact", id: "/contact" },
                     ]}
                     brandName="Retro Glass"
