@@ -41,7 +41,7 @@ export default function AboutPage() {
                         description="Retro Glass Photography was founded on the belief that every moment, big or small, deserves to be preserved with a cinematic, vintage soul. Based in Winnipeg, we specialize in blending modern photography techniques with the nostalgic aesthetic of 35mm film."
                         subdescription="Our approach is rooted in authentic storytelling. We don't just take pictures; we capture the emotion, the grain, and the fleeting beauty of your most important chapters, ensuring they stand the test of time."
                         icon={Camera}
-                        imageSrc="http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg"
+                        imageSrc="http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=1"
                         imageAlt="Photographer with vintage camera"
                         useInvertedBackground={false}
                     />
