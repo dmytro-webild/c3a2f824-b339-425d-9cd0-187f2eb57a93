@@ -44,6 +44,7 @@ export default function AboutPage() {
                         imageSrc="http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=1"
                         imageAlt="Photographer with vintage camera"
                         useInvertedBackground={false}
+                        mediaAnimation="opacity"
                     />
                 </div>
                 <FooterCard
