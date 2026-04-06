@@ -37,13 +37,13 @@ export default function PortfolioPage() {
                     <FeatureCardMedia
                         animationType="slide-up"
                         tag="Portfolio"
-                        title="Our Curated Work"
+                        title="Our Portfolio"
                         description="A selection of our favorite cinematic and vintage-inspired shoots."
                         textboxLayout="default"
                         useInvertedBackground={false}
                         features={[
-                            { id: "1", title: "Feature Project", description: "A deep dive into our signature aesthetic.", tag: "Highlights", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775494003782-ns01fatk.jpg" },
-                            { id: "2", title: "Wedding Memories", description: "Capturing love with a retro touch.", tag: "Events", imageSrc: "http://img.b2bpic.net/free-photo/newlyweds-walking-sunset-field_1153-605.jpg?_wi=2" },
+                            { id: "1", title: "Feature Project", description: "A deep dive into our signature aesthetic.", tag: "Highlights", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775495523742-28vmxhdo.jpg" },
+                            { id: "2", title: "Wedding Memories", description: "Capturing love with a retro touch.", tag: "Events", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775495523742-q1iiyvah.jpg" },
                             { id: "3", title: "Studio Portraits", description: "Classic studio vibes meets film texture.", tag: "Portraits", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-albinism-posing-studio_23-2150535752.jpg?_wi=2" },
                         ]}
                     />
