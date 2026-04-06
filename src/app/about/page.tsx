@@ -33,7 +33,7 @@ export default function AboutPage() {
                     brandName="Retro Glass"
                     button={{ text: "Book a Session", href: "/contact" }}
                 />
-                <div id="about" data-section="about">
+                <div id="about" data-section="about" className="pt-20">
                     <TestimonialAboutCard
                         tag="About Retro Glass"
                         tagIcon={Camera}
