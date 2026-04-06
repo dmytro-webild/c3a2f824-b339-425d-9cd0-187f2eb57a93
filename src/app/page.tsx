@@ -46,7 +46,7 @@ export default function RetroGlassPhotographyPage() {
                         { text: "Book a Session", href: "#contact" },
                     ]}
                     slides={[
-                        { imageSrc: "http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg", imageAlt: "Cinematic retro portrait" },
+                        { imageSrc: "http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=2", imageAlt: "Cinematic retro portrait" },
                         { imageSrc: "http://img.b2bpic.net/free-photo/beautiful-middle-aged-woman-hat-with-short-haircut-center-big-city-close-up-portrait-soft-backlight_1321-2714.jpg", imageAlt: "Vintage aesthetic event photography" },
                         { imageSrc: "http://img.b2bpic.net/free-photo/happy-woman-black-white-tone_53876-126899.jpg", imageAlt: "Artistic creative shoot" },
                     ]}
