@@ -4,10 +4,10 @@ import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import MediaAbout from "@/components/sections/about/MediaAbout";
-import { Camera, Instagram, Facebook } from "lucide-react";
+import FeatureCardMedia from "@/components/sections/feature/FeatureCardMedia";
+import { Instagram, Facebook } from "lucide-react";
 
-export default function AboutPage() {
+export default function PortfolioPage() {
     return (
         <ThemeProvider
             defaultButtonVariant="icon-arrow"
@@ -33,16 +33,19 @@ export default function AboutPage() {
                     brandName="Retro Glass"
                     button={{ text: "Book a Session", href: "/contact" }}
                 />
-                <div id="about" data-section="about" className="pt-20">
-                    <MediaAbout
-                        tag="Our Manifesto"
-                        tagIcon={Camera}
-                        title="About Retro Glass Photography"
-                        description="Welcome to Retro Glass. We are a Winnipeg-based photography studio dedicated to preserving your most precious memories through a lens that values authenticity, cinematic texture, and timeless storytelling. Our approach merges professional modern techniques with the nostalgic, tactile charm of classic film, ensuring your photographs feel as meaningful years from now as they do today."
-                        imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775493619800-zm13o16z.jpg"
-                        imageAlt="Photographer with vintage camera"
+                <div id="portfolio" data-section="portfolio" className="pt-20">
+                    <FeatureCardMedia
+                        animationType="slide-up"
+                        tag="Portfolio"
+                        title="Our Curated Work"
+                        description="A selection of our favorite cinematic and vintage-inspired shoots."
+                        textboxLayout="default"
                         useInvertedBackground={false}
-                        className="py-20"
+                        features={[
+                            { id: "1", title: "Feature Project", description: "A deep dive into our signature aesthetic.", tag: "Highlights", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BDuqwqQlRlHsoRKyycolI5jIQr/uploaded-1775494003782-ns01fatk.jpg" },
+                            { id: "2", title: "Wedding Memories", description: "Capturing love with a retro touch.", tag: "Events", imageSrc: "http://img.b2bpic.net/free-photo/newlyweds-walking-sunset-field_1153-605.jpg" },
+                            { id: "3", title: "Studio Portraits", description: "Classic studio vibes meets film texture.", tag: "Portraits", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-with-albinism-posing-studio_23-2150535752.jpg" },
+                        ]}
                     />
                 </div>
                 <FooterCard
