@@ -4,7 +4,7 @@ import ReactLenis from "lenis/react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
 import FooterCard from "@/components/sections/footer/FooterCard";
-import TestimonialAboutCard from "@/components/sections/about/TestimonialAboutCard";
+import MediaAbout from "@/components/sections/about/MediaAbout";
 import { Camera, Instagram, Facebook } from "lucide-react";
 
 export default function AboutPage() {
@@ -34,17 +34,15 @@ export default function AboutPage() {
                     button={{ text: "Book a Session", href: "/contact" }}
                 />
                 <div id="about" data-section="about" className="pt-20">
-                    <TestimonialAboutCard
-                        tag="About Retro Glass"
+                    <MediaAbout
+                        tag="Our Manifesto"
                         tagIcon={Camera}
-                        title="Capturing Timeless Moments"
-                        description="Retro Glass Photography is a boutique Winnipeg-based studio specializing in cinematic, vintage-inspired imagery. We believe that photography is more than just clicking a button; it's about preserving the soul of a moment with the unique character of 35mm film aesthetics."
-                        subdescription="Founded on a passion for authentic storytelling, we merge modern professional techniques with nostalgic textures and tones. Our mission is to transform your memories into heirlooms—capturing the grain, the emotion, and the fleeting beauty of your most important chapters so they resonate for generations."
-                        icon={Camera}
+                        title="About Retro Glass Photography"
+                        description="Welcome to Retro Glass. We are a Winnipeg-based photography studio dedicated to preserving your most precious memories through a lens that values authenticity, cinematic texture, and timeless storytelling. Our approach merges professional modern techniques with the nostalgic, tactile charm of classic film, ensuring your photographs feel as meaningful years from now as they do today."
                         imageSrc="http://img.b2bpic.net/free-photo/photographer-using-vintage-camera_53876-15325.jpg?_wi=1"
                         imageAlt="Photographer with vintage camera"
                         useInvertedBackground={false}
-                        mediaAnimation="opacity"
+                        className="py-20"
                     />
                 </div>
                 <FooterCard
